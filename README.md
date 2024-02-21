@@ -8,10 +8,10 @@ The datasets collected when the robot cleaner is impacted are stored in other fo
 
 Each line of data in the data.txt file consists of a timestamp (ms), three-axis gyroscope readings, left rotation encoder readings, right rotation encoder readings, three-axis accelerometer measurements, and whether it has been impacted (1: impacted, 0: not impacted).
 
-——How to get the wheel rotation? 
+—How to get the wheel rotation? 
 
-——The difference between two adjacent lines of data is the angle of wheel rotation.
+—The difference between two adjacent lines of data is the angle of wheel rotation.
 
-——How to get the change in IMU attitude? 
+—How to get the change in IMU attitude? 
 
-——The difference between the gyroscope readings of two adjacent lines is the change in IMU attitude (unit: degree).
+—The difference between the gyroscope readings of two adjacent lines is the change in IMU attitude (unit: degree).
